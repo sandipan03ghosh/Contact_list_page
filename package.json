@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-  "build:ci-debug": "node scripts/ci-debug.js && npx vite build",
+  "build:ci-debug": "node scripts/ci-debug.js && node scripts/ci-build.js",
     "preview": "vite preview"
   },
   "dependencies": {
